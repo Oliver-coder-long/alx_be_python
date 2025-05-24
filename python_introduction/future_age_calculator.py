@@ -1,1 +1,1 @@
-Age = int(input(“How old are you? : ”))
+Age = input(“How old are you? : ”)
