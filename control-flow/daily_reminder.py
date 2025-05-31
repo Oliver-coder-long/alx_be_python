@@ -10,7 +10,7 @@ match priority:
     else:
       print (f"{task} is of medium priority, you can do it at your own convenience")
   case "low":
-    if time_bound == "no":
+    if time-bound == "no":
       print (f"{task} is a low priority task. Consider completing it when you have free time")
     else:
       print (f"{task} is timebound, make sure to complete it before deadline")
