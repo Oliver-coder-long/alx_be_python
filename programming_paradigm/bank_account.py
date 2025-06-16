@@ -11,4 +11,4 @@ class BankAccount:
       return false
       print("You have insufficient funds")
   def display_balance():
-    print (f"Current balance: ${amount}")
+    print (f"[Current balance: ${amount}]")
