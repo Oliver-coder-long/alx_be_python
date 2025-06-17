@@ -1,14 +1,13 @@
 class BankAccount:
   def __init__(self, account_balance, balance = 0):
-    self.account_balance = account_balance
-    self.balance = balance
-  def deposit(amount):
-    self.balance += amount
-    return self.balance
-  def withdraw(amount):
+    self.account_balance = balance
+  def deposit(self, amount):
+    self.__account_balance += amount
+    return self.__account_balance
+  def withdraw(self, amount):
     if amount >= account_balance:
-      self.balance -= amount
-      return self.balance
+      self.__account_balance -= amount
+      return self.__account_balance
     else:
       return false
       print("You have insufficient funds")
