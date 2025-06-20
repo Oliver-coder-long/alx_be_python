@@ -2,7 +2,7 @@ def safe_divide(numerator,denomenator):
   numerator = float(numerator)
   denomenator = float(denomenator)
   try:
-    if denomenator == 0:
+    if "denomenator" == 0:
       raise ZeroDivisionError("Cannot divide by zero")
     else:
       return("The result of the division is", numerator/denomenator)
