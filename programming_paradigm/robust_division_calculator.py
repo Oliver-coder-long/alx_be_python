@@ -1,6 +1,4 @@
 def safe_divide(numerator,denomenator):
-  numerator = float(numerator)
-  denomenator = float(denomenator)
   return numerator/denomenator
   try:
     if "denomenator" == 0:
