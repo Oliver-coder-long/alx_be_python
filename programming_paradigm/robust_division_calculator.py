@@ -1,6 +1,6 @@
 def safe_divide(numerator,denomenator):
   if denominator == 0:
-        return "Error: Cannot divide by zero"
+        raise ZeroDivisionError("Cannot divide by zero")
     return float(numerator) / float(denominator)
   try:
     if "denomenator" == 0:
