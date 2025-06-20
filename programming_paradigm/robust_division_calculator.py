@@ -6,7 +6,7 @@ def safe_divide(numerator,denomenator):
     if "denomenator" == 0:
       raise ZeroDivisionError("Cannot divide by zero")
     else:
-      return numerator/denomenator
+      return float(numerator)/float(denomenator)
   except:
     print("Cannot divide a number by zero.")
   try:
