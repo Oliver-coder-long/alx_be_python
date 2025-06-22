@@ -21,7 +21,7 @@ class Library:
     self.books = []
   def add_book(self, book):
     if isinstance(book, Book):
-      self.books.aappend(book)
+      self.books.append(book)
   def list_books(self):
     for book in self.books:
       print (book)
